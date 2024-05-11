@@ -85,7 +85,7 @@ function Notes({ selectedGroup , selectedIcon, handleSelection}) {
         </div>
         <div className="add-note">
           <div className='add-note-container'>
-            <textarea 
+            <textarea className='textarea_text'
               placeholder="Enter your text here..........."
               value={newNote}
               onChange={(e) => setNewNote(e.target.value)}

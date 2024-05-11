@@ -91,6 +91,11 @@
     border: none;
     outline: none;
   }
+
+.textarea_text::-webkit-scrollbar {
+    display: none;
+  }
+  
 .note-submit-button{
     
     height: fit-content;
